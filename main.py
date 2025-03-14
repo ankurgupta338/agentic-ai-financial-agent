@@ -7,9 +7,9 @@ from phi.tools.duckduckgo import DuckDuckGo
 import openai
 import os
 
-# from dotenv import load_dotenv
-# load_dotenv() 
-# OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
+from dotenv import load_dotenv
+load_dotenv() 
+GROQ_API_KEY=os.getenv("GROQ_API_KEY")
 
 ## web search agent
 web_seach_agent=Agent(
